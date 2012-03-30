@@ -1,0 +1,19 @@
+citHeader("To cite ternvis in publications please use:")
+
+citEntry(entry="article",
+         title="On the visualization, verification and recalibration of ternary probabilistic forecasts",
+	 author=personList(person(given="Tim",family="Jupp",email="t.e.jupp@exeter.ac.uk"),
+	                   person(given="Rachel",family="Lowe"),
+			   person(given="David",family="Stephenson"),
+			   person(given="Caio",family="Coelho")),
+	 journal="Philosophical Transactions of the Royal Society",
+	 year=2012,
+	 pages="1100--1120",
+	 number=1962,
+	 volume=370,
+	 url="http://rsta.royalsocietypublishing.org/content/370/1962/1100.full",
+	 textVersion=paste("Jupp, T.E., Lowe, R., Stephenson, D.B. and Coelho, C.A.S. (2012),",
+	                   "On the visualization, verification and recalibration of ternary probabilistic forecasts.",
+			   "Philosophical Transactions of the Royal Society (A), 370, 1100-1120.")
+        )
+	
