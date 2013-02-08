@@ -29,9 +29,9 @@ function(x=cbind(1,1,1)/3,
     oB <- rbind(1,0,0)
     oN <- rbind(0,1,0)
     oA <- rbind(0,0,1)
-    a <- as.real(sqrt(t(oB-oN)%*%t(L)%*%L%*%(oB-oN)))
-    b <- as.real(sqrt(t(oA-oN)%*%t(L)%*%L%*%(oA-oN)))
-    n <- as.real(sqrt(t(oB-oA)%*%t(L)%*%L%*%(oB-oA)))
+    a <- as.double(sqrt(t(oB-oN)%*%t(L)%*%L%*%(oB-oN)))
+    b <- as.double(sqrt(t(oA-oN)%*%t(L)%*%L%*%(oA-oN)))
+    n <- as.double(sqrt(t(oB-oA)%*%t(L)%*%L%*%(oB-oA)))
     phi <- acos((a^2+n^2-b^2)/(2*a*n))
     M32 <- rbind(cbind(0 ,a*cos(phi),n),
                  cbind(0 ,a*sin(phi),0)   )     
@@ -196,8 +196,8 @@ function(x=cbind(1,1,1)/3,
     yp <- rep(NA,nrow(x))
     for (i in 1:nrow(x))
     {
-       xp[i] = as.real(M32[1,] %*% x[i,])
-       yp[i] = as.real(M32[2,] %*% x[i,])
+       xp[i] = as.double(M32[1,] %*% x[i,])
+       yp[i] = as.double(M32[2,] %*% x[i,])
     }
 
 

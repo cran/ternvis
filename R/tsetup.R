@@ -11,9 +11,9 @@ oA    <- cbind(0,0,1)
 # map column vector p <-> vector x living on simplex in R^3
 #
 # define lengths of sides of triange in R2
-    a <- as.real(sqrt((oB-oN)%*%t(L)%*%L%*%t(oB-oN)))
-    b <- as.real(sqrt((oA-oN)%*%t(L)%*%L%*%t(oA-oN)))
-    n <- as.real(sqrt((oB-oA)%*%t(L)%*%L%*%t(oB-oA)))
+    a <- as.double(sqrt((oB-oN)%*%t(L)%*%L%*%t(oB-oN)))
+    b <- as.double(sqrt((oA-oN)%*%t(L)%*%L%*%t(oA-oN)))
+    n <- as.double(sqrt((oB-oA)%*%t(L)%*%L%*%t(oB-oA)))
   phi <- acos((a^2+n^2-b^2)/(2*a*n))
 
 

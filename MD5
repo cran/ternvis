@@ -1,4 +1,4 @@
-0b0f5cd09a705b218c845e93f0a0643a *DESCRIPTION
+b67b6f318cf76a0589d521a5a8aa8021 *DESCRIPTION
 df390c53434517b304ac5db487184641 *NAMESPACE
 9d850ccc7b0a6e77c86851aafb7a4fa6 *R/plot.tverify.R
 44bbffc276211170bf6ec5f8cd2f1b04 *R/tcalibrate.R
@@ -8,10 +8,10 @@ f2757b1ab156b92bc7f2a1976d98d112 *R/tgetcal.R
 26238e50d1bd7d5d9a4ebac2b5685a8a *R/tgrid.R
 dab02dcb59a5a0e2c952736ba2d62946 *R/tmap.R
 1516cdfc27512c47cf6245b91b0b3da4 *R/tpalette.R
-0d251e546e6bc8a0d5d9a4c8d8249615 *R/tplot.R
+7791408caded643b3ffebc38e4844a1e *R/tplot.R
 0a34dbec574a2e3423cb111aa89d4a92 *R/tscale.R
 5f1b0ed168e81c63c9ae6ea616c0d2ec *R/tscore.R
-b6df8c18294f2bcce290b079be0cd91a *R/tsetup.R
+fcd9cd6efc23b24ce570d549e15b38dc *R/tsetup.R
 a5e7963b2b44f4e03aa1d182391f1509 *R/tverify.R
 8b82fc1430833375a4bc774643b2d7b8 *R/tverify.default.R
 8835e2da7636bb4429a9a06833669f73 *R/xf.R
