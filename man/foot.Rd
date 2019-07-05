@@ -13,7 +13,7 @@ The quoted odds, transformed to probabilities, are in foot$p (a 3-column matrix)
 The corresponding results of the games are in foot$o (a 3-column matrix).
 }
 \source{
-Data taken from \url{www.football-data.co.uk}.}
+Data taken from www.football-data.co.uk.}
 \examples{
 data(foot)
 # see the distribution of forecasts

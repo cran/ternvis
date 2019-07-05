@@ -1,1 +1,11 @@
 exportPattern("^[[:alpha:]]+")
+  importFrom("grDevices", "colorRamp", "hsv", "rgb")
+  importFrom("graphics", "points", "polygon", "title")
+  importFrom("stats", "nlm", "weighted.mean")
+  importFrom("grid", "unit","grid.text","grid.newpage", "pushViewport", "gpar", "grid.lines", "grid.polygon", "grid.points", "popViewport", "upViewport","viewport")
+  importFrom("quadprog", "solve.QP")
+   importFrom("maps", "map")
+  importFrom("dichromat","dichromat")
+S3method(plot, tverify)
+S3method(tverify, default)
+
