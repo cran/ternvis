@@ -26,9 +26,9 @@ An n-by-1 array of x-values for use in plotting.
 \references{
 Jupp TE, Lowe R, Stephenson DB, Coelho CAS (2012) On the visualization, verification and recalibration of ternary probabilistic forecasts, Philosophical Transactions of the Royal Society, volume 370, pages 1100-1120. 
 
-\url{http://rsta.royalsocietypublishing.org/content/370/1962/1100.full}
+https://rsta.royalsocietypublishing.org/content/370/1962/1100.full/
 
-\url{http://arxiv.org/abs/1103.1303}
+https://arxiv.org/abs/1103.1303/
 }
 \author{
 Tim Jupp

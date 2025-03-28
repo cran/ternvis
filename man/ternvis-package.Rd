@@ -12,8 +12,8 @@ A suite of functions for visualising ternary probabilistic forecasts.
 \tabular{ll}{
 Package: \tab ternvis\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2012-03-29\cr
+Version: \tab 1.3\cr
+Date: \tab 2025-03-27\cr
 License: \tab GPL-2
 }
 Colours can be assigned to ternary probabilistic forecasts using \code{\link{tcolour}}. 
@@ -28,9 +28,9 @@ Maintainer: Tim Jupp <t.e.jupp@exeter.ac.uk>
 \references{
 Jupp TE, Lowe R, Stephenson DB, Coelho CAS (2012) On the visualization, verification and recalibration of ternary probabilistic forecasts, Philosophical Transactions of the Royal Society, volume 370, pages 1100-1120. 
 
-\url{http://rsta.royalsocietypublishing.org/content/370/1962/1100.full}
+https://rsta.royalsocietypublishing.org/content/370/1962/1100.full/
 
-\url{http://arxiv.org/abs/1103.1303}
+https://arxiv.org/abs/1103.1303/
 }
 \keyword{ package }
 \seealso{

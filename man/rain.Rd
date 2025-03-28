@@ -28,7 +28,7 @@ rain$q         array of climatologies
 
 }
 \source{
-Data from Caio Coelho at \url{http://eurobrisa.cptec.inpe.br}.}
+Data from Caio Coelho at http://eurobrisa.cptec.inpe.br/.}
 \examples{
 data(rain)
 

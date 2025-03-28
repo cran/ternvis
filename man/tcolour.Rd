@@ -25,7 +25,7 @@ Exponent controlling rate of colour saturation.
 Logical to transpose categories "B" and "A" in barycentric coordinates.
 }
   \item{dich}{
-Option to render colours as they would appear to a dichromat. Default choice \code{dich} = "none" leaves colours unchanged. Choices \code{dich} = "deutan" and \code{dich} = "protan" show colours as they would appear to those with deutanopia or protanopia (see \code{\link{dichromat}}).
+Option to render colours as they would appear to a dichromat. Default choice \code{dich} = "none" leaves colours unchanged. Choices \code{dich} = "deutan" and \code{dich} = "protan" show colours as they would appear to those with deutanopia or protanopia (see \code{\link[dichromat]{dichromat}}).
 }
   \item{theta0}{
 Angle (degrees) through which to rotate colour palette around climatology \code{q} in barycentric coordinates.
@@ -37,9 +37,9 @@ A colour, of the format produced by \code{\link{rgb}}.
 \references{
 Jupp TE, Lowe R, Stephenson DB, Coelho CAS (2012) On the visualization, verification and recalibration of ternary probabilistic forecasts, Philosophical Transactions of the Royal Society, volume 370, pages 1100-1120. 
 
-\url{http://rsta.royalsocietypublishing.org/content/370/1962/1100.full}
+https://rsta.royalsocietypublishing.org/content/370/1962/1100.full/
 
-\url{http://arxiv.org/abs/1103.1303}
+https://arxiv.org/abs/1103.1303/
 }
 \author{
 Tim Jupp
